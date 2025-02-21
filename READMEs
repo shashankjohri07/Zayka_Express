@@ -1,0 +1,51 @@
+ZaykaExpress
+ZaykaExpress is a food delivery web application inspired by Swiggy, designed to provide a seamless food ordering experience with real-time restaurant listings, menu browsing, and order placement.
+
+Features
+🍔 Restaurant Listings: Fetch and display nearby restaurants.
+📜 Menu Display: View restaurant menus with item details.
+🔍 Search Functionality: Search restaurants based on location.
+⚡ Shimmer Effect: Smooth UI with loading placeholders.
+🌐 Routing with React Router: Seamless page navigation.
+📦 State Management: Using Redux Toolkit for global state handling.
+🎨 Tailwind CSS: Modern, responsive UI styling.
+Tech Stack
+Frontend: React, React Router, Redux Toolkit
+Styling: Tailwind CSS
+APIs: Swiggy Unofficial API (via proxy)
+Icons & Fonts: FontAwesome, React Icons
+Installation & Setup
+Clone the repository:
+git clone https://github.com/yourusername/mealrush.git
+cd mealrush
+Install dependencies:
+npm install
+Start the development server:
+npm start
+Open the app in your browser at http://localhost:3000.
+Folder Structure
+ZaykaExpress/
+│── src/
+│   ├── components/       # Reusable UI components
+│   ├── pages/            # Page components (Home, Menu, etc.)
+│   ├── redux/            # Redux store and slices
+│   ├── assets/           # Images, icons, static files
+│   ├── App.js            # Main App component
+│   ├── index.js          # Entry point
+│── public/
+│── package.json
+│── tailwind.config.js
+│── README.md
+API Endpoints
+Restaurant List: https://foodfire.onrender.com/api/restaurants?lat={lat}&lng={lng}
+Menu Data: https://foodfire.onrender.com/api/menu?restaurantId={id}
+Contributing
+Fork the repository.
+Create a new branch (git checkout -b feature-name).
+Commit your changes (git commit -m 'Add new feature').
+Push to your branch (git push origin feature-name).
+Open a pull request.
+License
+This project is licensed under the MIT License.
+
+🚀 Enjoy your meal with ZaykaExpress! 🍕
